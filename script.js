@@ -1,6 +1,6 @@
 let temperature='input';
 
-if (temperature<0 && typeof temperature === 'number'){
+if (temperature<0){
     console.log('frozen ');
 }
 else if (temperature>=0 && temperature <=10) {
